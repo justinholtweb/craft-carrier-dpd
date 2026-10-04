@@ -1,0 +1,58 @@
+{
+    "name": "justinholtweb/craft-carrier-dpd",
+    "description": "DPD EasyShip (Croatia, Slovenia) for Carrier — labels, COD, parcel shops, collections and the daily manifest.",
+    "version": "5.0.0",
+    "type": "craft-plugin",
+    "keywords": [
+        "craftcms",
+        "craft-plugin",
+        "craft-commerce",
+        "carrier",
+        "shipping",
+        "dpd",
+        "easyship",
+        "croatia",
+        "slovenia"
+    ],
+    "license": "proprietary",
+    "homepage": "https://justinholt.com/plugins/craft-carrier",
+    "authors": [
+        {
+            "name": "Justin Holt",
+            "homepage": "https://justinholt.com"
+        }
+    ],
+    "support": {
+        "email": "justin@justinholt.com",
+        "docs": "https://justinholt.com/plugins/craft-carrier/docs/dpd",
+        "source": "https://github.com/justinholtweb/craft-carrier-dpd",
+        "issues": "https://github.com/justinholtweb/craft-carrier-dpd/issues"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "craftcms/cms": "^5.3.0",
+        "justinholtweb/craft-carrier": "^5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "justinholtweb\\carrierdpd\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "extra": {
+        "name": "Carrier for DPD",
+        "handle": "carrier-dpd",
+        "developer": "Justin Holt",
+        "developerUrl": "https://justinholt.com",
+        "documentationUrl": "https://justinholt.com/plugins/craft-carrier/docs/dpd",
+        "changelogUrl": "https://raw.githubusercontent.com/justinholtweb/craft-carrier-dpd/main/CHANGELOG.md",
+        "class": "justinholtweb\\carrierdpd\\Plugin"
+    }
+}
